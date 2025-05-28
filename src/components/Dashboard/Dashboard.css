@@ -421,3 +421,58 @@
         border-radius: 0px;
     }
 }
+
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Mobile view (<= 768px) */
+@media (max-width: 768px) {
+  .calendar-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .organ-container{
+    display: none;
+  }
+  .upcoming-section{
+    flex-direction: column;
+  }
+  .upcoming-left-style{
+    width: 250px;
+  }
+  .upcoming-right-style{
+    width: 250px;
+  }
+  .upcoming-section1{
+    flex-direction: column;
+  }
+  .upcoming-right-style30{
+    width: 250px;
+  }
+  .dentist-section{
+    flex-direction: column;
+  }
+  .dentist-left-style{
+   width: 250px; 
+  }
+  .dentist-right-style{
+   width: 250px; 
+  }
+  .dashboard-left{
+    width: 85%;
+  }
+  .dashboard-right{
+    width: 85%;
+  }
+  .header-right-icon{
+    margin-left: 14px;
+  }
+  .header-section{
+    width: 100%;
+  }
+}
+
+/* Very small screens (<= 480px) */
+
