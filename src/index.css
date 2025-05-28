@@ -1,0 +1,28 @@
+body {
+  box-sizing: border-box;
+  background-color: #E3EDF7;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#modal_body {
+  overflow-y: auto;
+}
+
+#modal_body::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+
+#modal_body::-webkit-scrollbar-thumb {
+  background: #CBCBCB;
+  /* background: transparent; */
+  border-radius: 3px;
+}
+
+#modal_body::-webkit-scrollbar-thumb:hover,
+#modal_body::-webkit-scrollbar-thumb:hover {
+  background-color: #5A5C60;
+  /* background-color: transparent; */
+}
